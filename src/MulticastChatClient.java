@@ -1,7 +1,7 @@
 import java.net.*;
 import java.io.*;
 
-public class Main {
+public class MulticastChatClient {
     public static void main(String[] args) throws Exception {
         int portnumber = 50000;
         if (args.length >= 1) {
